@@ -1,0 +1,21 @@
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width:70%;
+    height:350px;
+   }
+   
+   .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+   }
+   
+   .slide {
+    display: inline-block;
+    width: 100%;
+    border-radius:0px;
+   }
+   
+#project1{
+    padding: 0%;
+}   
