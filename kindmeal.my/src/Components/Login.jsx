@@ -23,8 +23,6 @@ const Login = ({ text, user, setText, setUser }) => {
     setUser(text);
   };
 
-  console.log(user);
-
   return (
     <>
       <Button onClick={onOpen}>Login</Button>
