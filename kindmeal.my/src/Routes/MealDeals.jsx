@@ -18,7 +18,6 @@ const MealDeals = () => {
       page: page,
       limit: 10,
     }).then((res) => {
-      console.log(res.data);
       setData(res.data);
     });
   }, [page]);
