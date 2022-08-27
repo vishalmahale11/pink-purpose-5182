@@ -95,7 +95,7 @@ const Navbar = () => {
         </Link>
         <Link
           style={{ fontSize: "18px", color: "#fff", fontWeight: "bold" }}
-          to="/hotpicks"
+          to="/"
         >
           Hotpicks
         </Link>
@@ -107,7 +107,7 @@ const Navbar = () => {
         </Link>
         <Link
           style={{ fontSize: "18px", color: "#fff", fontWeight: "bold" }}
-          to="/directory"
+          to="/"
         >
           Directory
         </Link>
