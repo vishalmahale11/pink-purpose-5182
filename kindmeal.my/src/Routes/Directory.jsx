@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Directory = () => {
-  return (
-    <div>Directory</div>
-  )
-}
+  return <div>Directory</div>;
+};
 
-export default Directory
+export default Directory;

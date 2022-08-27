@@ -32,4 +32,16 @@ const getRecipes = ({ page, limit }) => {
     },
   });
 };
-export { getMealDeals, getKindMeals, getRecipes };
+
+const getArticles = ({ page, limit }) => {
+  return axios({
+    url: "https://kindmealm.herokuapp.com/articles",
+    method: "get",
+    params: {
+      _page: page,
+      _limit: limit,
+    },
+  });
+};
+
+export { getMealDeals, getKindMeals, getRecipes, getArticles };
